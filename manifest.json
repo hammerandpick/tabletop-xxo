@@ -1,0 +1,26 @@
+{
+    "name": "Tabletop XXO Game Module",
+    "short_name": "XXO GM ",
+    "start_url": "./tt-xxo/tt-xxo.js",
+    "display": "module",
+    "background_color": "#ffffff",
+    "theme_color": "#1976d2",
+    "description": "A Game module for Tabletop PWA implementing Tic-Tac-Toe.",
+    "icons": [
+        {
+            "src": "images/tt-xxo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "images": [
+        {
+            "src": "images/tt-xxo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait-primary",
+    "scope": ".",
+    "lang": "en"
+}
