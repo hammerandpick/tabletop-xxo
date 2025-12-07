@@ -3,6 +3,7 @@ class tabletop_xxo extends ttGame {
         super();
         this.name = "tt-xxo";
         this.label = "Tic Tac Oh!";
+        this.wuerfel = new TableTop_Die(2)
     }
     initialize() {
         console.log("Tic Tac Oh! module initialized.");
@@ -15,6 +16,7 @@ class tabletop_xxo extends ttGame {
             layers: 1,
             grid: []
         };
+        
     }
 
     prepare() {
@@ -31,7 +33,6 @@ class tabletop_xxo extends ttGame {
         }
         this.prepareBoard();
         console.log(this);
-
     }
     
     checkWinCondition() {
